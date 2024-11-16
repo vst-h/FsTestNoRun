@@ -7,7 +7,7 @@
     <GenerateProgramFile>false</GenerateProgramFile>
     <IsTestProject>true</IsTestProject>
 
-	  <ManagePackageVersionsCentrally>false</ManagePackageVersionsCentrally>
+	  <!-- <ManagePackageVersionsCentrally>false</ManagePackageVersionsCentrally> -->
 
   </PropertyGroup>
 
@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-	  <!--<PackageReference Include="coverlet.collector">
+	  <PackageReference Include="coverlet.collector">
 		  <PrivateAssets>all</PrivateAssets>
 		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 	  </PackageReference>
@@ -26,8 +26,10 @@
 	  <PackageReference Include="xunit.runner.visualstudio">
 		  <PrivateAssets>all</PrivateAssets>
 		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-	  </PackageReference>-->
-    <PackageReference Include="coverlet.collector" Version="6.0.2">
+	  </PackageReference>
+	  <PackageReference Include="FSharp.Core" />
+
+    <!-- <PackageReference Include="coverlet.collector" Version="6.0.2">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
@@ -36,7 +38,7 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
+    </PackageReference> -->
   </ItemGroup>
 
 </Project>
